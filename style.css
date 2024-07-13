@@ -418,7 +418,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  /* margin-top: 100rem; */
+  margin-top: 10rem;
 }
 
 .contact-info-upper-container {
