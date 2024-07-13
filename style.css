@@ -28,6 +28,15 @@ a,
 
 /* DESKTOP NAV */
 
+#desktop-nav {
+  background: #f0f0f0;
+  height: 5rem;
+}
+
+#desktop-nav a:hover {
+  color: rgb(106, 104, 104);
+}
+
 nav,
 .nav-links {
   display: flex;
@@ -42,7 +51,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 a {
@@ -114,7 +123,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-.menu-links a:hover{
+.menu-links a:hover {
   color: grey;
   text-underline-offset: 0.7rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -199,7 +208,9 @@ section {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
-
+.section__text__p5{
+  font-size: 0.7rem;
+}
 .title {
   font-size: 3rem;
   text-align: center;
@@ -294,6 +305,7 @@ section {
 .about-pic {
   border-radius: 50%;
 }
+
 .prof-pic {
   box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.053);
 }
@@ -369,18 +381,21 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 7rem;
 }
 
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(255, 255, 255);
 }
-.color-container:hover{
-  background:#dfdbdb;
-  transition: all 500ms ease;
+
+.color-container:hover {
+  background: #dfdbdb;
+  transition: all 400ms ease;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
 }
+
 .project-img {
   border-radius: 2rem;
   width: 90%;
@@ -419,6 +434,7 @@ article .icon {
 
 .contact-info-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
@@ -447,3 +463,4 @@ footer {
 footer p {
   text-align: center;
 }
+
