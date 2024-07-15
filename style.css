@@ -424,8 +424,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
-  margin-top: 10rem;
+  height: 100vh;
 }
 
 .contact-info-upper-container {
