@@ -191,6 +191,12 @@ section {
   margin: auto 0;
 }
 
+.section__pic-container2 img{
+  height: 300px;
+  width: 250px;
+  margin: 2rem 0;
+
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -381,6 +387,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 7rem;
 }
 
 .color-container {
@@ -418,7 +425,6 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 20rem;
 }
 
 .contact-info-upper-container {
